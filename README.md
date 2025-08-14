@@ -23,7 +23,9 @@ Using the **Airbnb NYC Listings** dataset, I trained and evaluated **Decision Tr
 - **`CompareKNNsAndDTs.py`** – Script version of the notebook, containing the modeling logic for non‑notebook workflows.  
 - **`airbnbData_train.csv`** – Airbnb NYC Listings training subset used for model building.
 
-## 📊 Results & Key Findings
+## Database used: 
+
+## Results & Key Findings
 - Both DT and KNN models were trained and tuned across multiple hyperparameters.  
 - Accuracy varies with configuration; the best model (per notebook) outperforms baseline and highlights the bias–variance trade‑off.  
 - Visualizations (accuracy vs. hyperparameter) help select robust configurations and reveal overfitting at extreme depths (DT) or inappropriate k values (KNN).
