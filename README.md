@@ -19,11 +19,12 @@ Using the **Airbnb NYC Listings** dataset, I trained and evaluated **Decision Tr
 5. **Conclusion** – Summarize findings and the best‑performing configuration.
 
 ## 📂 Files in this Repository
-- **`CompareKNNsAndDTs.ipynb`** – Main Jupyter Notebook with full implementation, including training, evaluation, and comparison of DTs and KNNs.  
-- **`CompareKNNsAndDTs.py`** – Script version of the notebook, containing the modeling logic for non‑notebook workflows.  
-- **`airbnbData_train.csv`** – Airbnb NYC Listings training subset used for model building.
+- [CompareKNNsAndDTs.ipynb](https://github.com/CamilaLightfoot/ML-Life-Cycle-Modeling/blob/main/CompareKNNsAndDTs%20(1).ipynb) – Main Jupyter Notebook with full implementation, including training, evaluation, and comparison of DTs and KNNs.  
+- [CompareKNNsAndDTs.py](https://github.com/CamilaLightfoot/ML-Life-Cycle-Modeling/blob/main/CompareKNNsAndDTs%20(1).py) – Script version of the notebook, containing the modeling logic for non‑notebook workflows.  
 
 ## Database used: 
+- [airbnbData_Prepared.csv](https://github.com/CamilaLightfoot/ML-Life-Cycle-Modeling/blob/main/Database/airbnbData_Prepared.csv) - Final processed Airbnb NYC data, fully encoded and ready for model training.
+- [airbnb_readytoOHE.csv](https://github.com/CamilaLightfoot/ML-Life-Cycle-Modeling/blob/main/Database/airbnb_readytoOHE.csv) - Preprocessed Airbnb NYC data ready for one-hot encoding.
 
 ## Results & Key Findings
 - Both DT and KNN models were trained and tuned across multiple hyperparameters.  
